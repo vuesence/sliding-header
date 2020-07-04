@@ -1,6 +1,6 @@
 <template>
 	<div id="app">
-		<sliding-header :treshold-hide="200" :treshold-open="400">
+		<sliding-header :threshold-hide="200" :threshold-open="400">
 			<template v-slot:first-header>
 				<p>The first header</p>
 			</template>

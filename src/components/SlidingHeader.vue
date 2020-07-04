@@ -4,7 +4,7 @@
 		:class="{
 			'first-header': scrollY < median,
 			'second-header': scrollY >= median,
-			'hidden': scrollY > tresholdHide && scrollY < tresholdOpen
+			'hidden': scrollY > thresholdHide && scrollY < thresholdOpen
 		}"
 	>
 		<slot name="first-header" v-if="scrollY < median"></slot>
@@ -21,12 +21,12 @@ export default {
 		};
 	},
 	props: {
-		tresholdHide: Number,
-		tresholdOpen: Number
+		thresholdHide: Number,
+		thresholdOpen: Number
 	},
 	computed: {
 		median() {
-			return (this.tresholdHide + this.tresholdOpen) / 2;
+			return (this.thresholdHide + this.thresholdOpen) / 2;
 		}
 	},
 	created() {
