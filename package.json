@@ -1,14 +1,45 @@
 {
-  "name": "sliding-header",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@vuesence/sliding-header",
+  "description": "Vue.js component representing sliding header(s)",
+  "version": "1.1.0",
+  "private": false,
+  "main": "dist/sliding-header.umd.js",
+  "module": "dist/sliding-header.esm.js",
+  "unpkg": "dist/sliding-header.umd.min.js",
+  "homepage": "https://altrusl.github.io/vuesence-sliding-header/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altrusl/vuesence-sliding-header.git"
+  },
+  "author": {
+    "name": "Ruslan Makarov",
+    "url": "https://altrusl.github.io/cv"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vue",
+    "sync",
+    "sliding",
+    "header"
+  ],
+  "files": [
+    "src/*",
+    "dist/*",
+    "package.json",
+    "README.md",
+    "LICENSE  "
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-dist": "vue-cli-service build --target lib src/components/SlidingHeader.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "@vue/eslint-config-prettier": "^6.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -16,38 +47,41 @@
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^6.2.2",
+    "prettier-eslint": "^11.0.0",
     "vue-template-compiler": "^2.6.11"
   },
-	"eslintConfig": {
-		"root": true,
-		"env": {
-			"node": true
-		},
-		"extends": [
-			"plugin:vue/essential",
-			"eslint:recommended",
-			"@vue/prettier"
-		],
-		"parserOptions": {
-			"parser": "babel-eslint"
-		},
-		"rules": {
-			"vue/script-indent": [
-				"error",
-				"tab"
-			],
-			"indent": [
-				"error",
-				"tab"
-			]
-		}
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/script-indent": [
+        "error",
+        "tab"
+      ],
+      "indent": [
+        "error",
+        "tab"
+      ]
+    }
   },
   "prettier": {
-		"tabWidth": 4,
-		"useTabs": true
-	},
+    "tabWidth": 4,
+    "useTabs": true
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
