@@ -1,1 +1,0 @@
-.sliding-header{position:fixed;z-index:1;top:0;left:0;width:100%;display:flex;justify-content:center;align-items:center;transition:.3s}.sliding-header.first-header{background-color:#90ee90;height:60px}.sliding-header.second-header{background-color:#add8e6;height:100px}.sliding-header.hidden{top:-100px}#app{font-family:Helvetica,Arial,sans-serif;color:#2c3e50;margin-top:100px}
