@@ -2,6 +2,7 @@ module.exports = {
 	publicPath: "./",
 	outputDir: "./docs",
 	css: {
-		extract: false
+		extract: false,
+		sourceMap: true
 	}
 };

@@ -48,9 +48,11 @@ Then you can use it in the your Vue code:
 	transition: 0.3s;
 }
 .sliding-header.first-header {
+	background-color: lightgreen;
 	height: 60px;
 }
 .sliding-header.second-header {
+	background-color: lightblue;
 	height: 100px;
 }
 .sliding-header.hidden {
@@ -71,7 +73,7 @@ You can play with `transition`, `opacity` and other CSS properties to adjust the
 
 ## Playground
 
-Try it on <a href="https://codesandbox.io/s/cloud-sync-button-hv9dr" target="_blank">codesandbox.io</a>
+Try it on <a href="https://codesandbox.io/s/sliding-header-z3j3t" target="_blank">codesandbox.io</a>
 
 <!-- > ! The version on `codesandbox.io` might be slightly out of date -->
 
