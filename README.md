@@ -1,12 +1,12 @@
 # Sliding Header
 
-Vue.js component representing sliding header (or two different headers)
+Vue.js component representing sliding header (or two different headers) for top navigation bar
 
 ![VB-preview](https://altrusl.github.io/vuesence-sliding-header/vsh.gif)
 
 # How to use
 
-This component consists of one `SlidingHeader.vue` file that can be copy-pasted into your Vue.js project or can be plugged in as an NPM package:
+This Vue component consists of one <a href="https://github.com/altrusl/vuesence-sliding-header/blob/master/src/components/SlidingHeader.vue" target="_blank">`SlidingHeader.vue`</a> file that can be copy-pasted into your Vue.js project or can be plugged in as an NPM package:
 
 ```bash
 npm install @vuesence/sliding-header --save
@@ -61,11 +61,17 @@ Then you can use it in the your Vue code:
 </style>
 ```
 
-Two props - `threshold-hide` and `threshold-open` - define vertical scrolling thresholds for hiding the first and opening the second headers.
+Each `template` contains code for corresponding header / top navigation bar
 
-It is possible to use just one header - either the first or the second. Just omit one of the templates
+Two props - `threshold-hide` and `threshold-open` - define vertical scrolling thresholds for hiding the first and opening the second header.
 
-You can play with `transition`, `opacity` and other CSS properties to adjust the animation to your needs
+It is possible to use just one header - either the first or the second. Just omit one of the `templates`
+
+`sliding-header` CSS class selector is shared by both headers, `.first-header` and `.second-header` are dedicated.
+
+`.sliding-header.hidden`'s `top` property should be maximum of headers' `height` with "-" sign.
+
+You can play with `height`, `transition`, `opacity` and other CSS properties to adjust the animation to your needs.
 
 ## Demo
 
