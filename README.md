@@ -83,16 +83,22 @@ Try it on <a href="https://codesandbox.io/s/sliding-header-z3j3t" target="_blank
 
 <!-- > ! The version on `codesandbox.io` might be slightly out of date -->
 
+## Check out my other Vue.js components
+
+- <a href="https://github.com/altrusl/vuesence-book" target="_blank">Vuesence book</a> - minimalistic Vue.js based documentation system component
+- <a href="https://github.com/altrusl/vuesence-cloud-sync-button" target="_blank">Cloud Sync Button</a> - a button with cloud synchronization animation
+
+
+<img src="https://imgur.com/A92i02A.png" />
+You like Sliding Header? GitHub star it and <a href="https://twitter.com/vuesence/status/1280083512645881856?s=20">twit it!</a>
+
+-------
+
 ## Troubleshooting
 
 Any bugs, issues, feature and pull requests are welcome
 
 Please use GitHub's issue reporter or send me an <a href="mailto:ruslan.makarov@gmail.com">email</a>
-
-### Check out my other Vue.js components
-
-- <a href="https://github.com/altrusl/vuesence-book" target="_blank">Vuesence book</a> - minimalistic Vue.js based documentation system component
-- <a href="https://github.com/altrusl/vuesence-cloud-sync-button" target="_blank">Cloud Sync Button</a> - a button with cloud synchronization animation
 
 ## Contribution
 
@@ -102,13 +108,6 @@ Contribution is always welcome and recommended. Here is how:
 -   Clone to your machine
 -   Make your changes
 -   Create a pull request
-
--------
-
-<img src="https://imgur.com/A92i02A.png" />
-You like Vuesence Sliding Header? GitHub star it and <a href="https://twitter.com/vuesence/status/1280083512645881856?s=20">twit it!</a>
-
--------
 
 
 ## License
