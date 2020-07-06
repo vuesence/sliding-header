@@ -90,7 +90,7 @@ Try it on <a href="https://codesandbox.io/s/sliding-header-z3j3t" target="_blank
 
 
 <img src="https://imgur.com/A92i02A.png" />
-You like Sliding Header? GitHub star it and <a href="https://twitter.com/vuesence/status/1280083512645881856?s=20">twit it!</a>
+You like Sliding Header? Star it and <a href="https://twitter.com/vuesence/status/1280083512645881856?s=20">retweet it!</a>
 
 -------
 
