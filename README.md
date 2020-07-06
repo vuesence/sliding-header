@@ -103,6 +103,14 @@ Contribution is always welcome and recommended. Here is how:
 -   Make your changes
 -   Create a pull request
 
+-------
+
+<img src="https://imgur.com/A92i02A.png" />
+You like Vuesence Sliding Header? GitHub star it and <a href="https://twitter.com/vuesence/status/1280083512645881856?s=20">twit it!</a>
+
+-------
+
+
 ## License
 
 **@vuesence/sliding-header** package is freely distributable under the terms of the [MIT license](LICENSE).
