@@ -1,7 +1,7 @@
 {
   "name": "@vuesence/sliding-header",
   "description": "Vue.js component representing sliding header(s)",
-  "version": "1.4.0",
+  "version": "1.4.2",
   "private": false,
   "main": "dist/sliding-header.umd.js",
   "module": "dist/sliding-header.esm.js",
