@@ -2,7 +2,7 @@
 
 Vue.js component representing sliding header (or two different headers) for top navigation bar
 
-![VB-preview](https://altrusl.github.io/vuesence-sliding-header/vsh.gif)
+![VB-preview](https://vuesence.github.io/sliding-header/vsh.gif)
 
 # How to use
 
